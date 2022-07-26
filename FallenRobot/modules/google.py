@@ -123,8 +123,8 @@ async def okgoogle(img):
 
         if response != 400:
             await dev.edit(
-                "`Image successfully uploaded to Google. Maybe.`"
-                "\n`Parsing source now. Maybe.`"
+                "`Image successfully uploaded to Google. Mosia.`"
+                "\n`Parsing source now. Mosia.`"
             )
         else:
             await dev.edit("`Google told me to fu*k off.`")
@@ -268,7 +268,7 @@ async def apk(e):
             + app_link
             + "'>View in Play Store</a>"
         )
-        app_details += "\n\n===> Fallen <==="
+        app_details += "\n\n===> Mosia Mk <==="
         await e.reply(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await e.reply("No result found in search. Please enter **Valid app name**")
@@ -283,6 +283,6 @@ __help__ = """
  ❍ /img <text>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
- ❍ Anonymous <query>*:* Fallen answers the query
-  💡Ex: `Anonymous where is India?`
+ ❍ Mosia Mk <query>*:* Osmani answers the query
+  💡Ex: `Mosia where is Somalia?`
 """
